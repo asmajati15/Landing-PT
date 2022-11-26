@@ -1,0 +1,281 @@
+.navbar {
+  height: 100px;
+}
+
+.nav-link {
+  margin-left: 20px;
+}
+
+.hero-title {
+  width: 80%;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  margin-bottom: 100px;
+}
+
+.btn-explore {
+  background-color: rgb(220, 53, 69);
+  color: white;
+  text-decoration: none;
+  padding: 10px 50px;
+  border-radius: 30px 0 30px 0;
+  margin-right: 30px;
+  transition: 0.5s;
+}
+
+.btn-explore:hover {
+  background-color: rgb(162, 53, 53);
+  color: rgb(223, 223, 223);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.btn-contact {
+  background-color: white;
+  border: solid 1px;
+  border-color: rgb(220, 53, 69);
+  color: rgb(220, 53, 69);
+  text-decoration: none;
+  padding: 10px 50px;
+  border-radius: 30px 0 30px 0;
+  transition: 0.5s;
+}
+
+.btn-contact:hover {
+  background-color: rgb(162, 53, 53);
+  color: rgb(223, 223, 223);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.hero-img-container {
+  width: 100%;
+  height: 600px;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 0 0 0 300px;
+}
+
+.vendor {
+  background-color: rgb(235, 235, 235);
+  border-radius: 50px;
+}
+
+.vendor-grab img {
+  width: 100px;
+  height: 50px;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.vendor-maxim img {
+  width: 130px;
+  height: 80px;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.vendor-tiket img {
+  width: 150px;
+  height: 30px;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.vendor-gojek img {
+  width: 110px;
+  height: 60px;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.vendor-grab img:hover {
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+
+.vendor-maxim img:hover {
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+
+.vendor-tiket img:hover {
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+
+.vendor-gojek img:hover {
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+
+.about-title {
+  width: 80%;
+  font-weight: 700;
+  margin-left: 25px;
+}
+
+.about-title span {
+  color: rgb(220, 53, 69);
+}
+
+.about-shape {
+  width: 50px;
+  height: 75px;
+  background-color: rgb(220, 53, 69);
+  border-radius: 0 0 0 30px;
+  margin-top: -65px;
+}
+
+.about-text {
+  margin-top: 100px;
+}
+
+.about-img-container {
+  width: 100%;
+  height: 600px;
+}
+
+.about-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 0 300px 0 0;
+}
+
+.services-title {
+  font-weight: 700;
+}
+
+.services-title span {
+  color: rgb(220, 53, 69);
+}
+
+.highlight-menu {
+  width: 300px;
+  border-radius: 0 30px 0 30px;
+  overflow: hidden;
+  margin: 25px;
+  margin-right: 100px;
+}
+
+.slide-img {
+  height: 450px;
+  position: relative;
+}
+
+.slide-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.slide-detail {
+  width: 100%;
+  display: flex;
+  background-color: rgb(220, 53, 69);
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 15px;
+  box-sizing: border-box;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.slide-nama {
+  display: flex;
+  flex-direction: column;
+}
+
+.slide-nama p {
+  color: white;
+  font-size: 22px;
+  margin: 5px 0px;
+  font-weight: 500;
+  padding-right: 8px;
+}
+
+.slide-overlay {
+  position: absolute;
+  top: 0%;
+  width: 80%;
+  height: 50px;
+  background-color: rgb(220, 53, 69);
+  border-radius: 0 0 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-overlay img {
+  width: 150px;
+  height: 50px;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slider {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-box-image {
+  background-image: url("image/background.png");
+  width: 90%;
+  height: 700px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.contact-image {
+  width: 80%;
+  height: 275px;
+  border-radius: 20px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+
+.fa {
+  padding-top: 10px;
+  margin: 10px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+}
